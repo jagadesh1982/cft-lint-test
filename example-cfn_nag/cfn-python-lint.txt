@@ -1,0 +1,184 @@
+E0000 expected '<document start>', but found '<scalar>'
+/data/Dockerfile:7:1
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupIngress/0/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:254:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupIngress/0/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:255:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/0/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:259:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/0/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:260:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/1/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:263:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/1/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:264:9
+
+E3030 You must specify a valid value for Domain (VPC).
+Valid values are ["standard", "vpc"]
+/data/base-vpc-example-improved.template.yml:320:7
+
+E3030 You must specify a valid value for Domain (VPC).
+Valid values are ["standard", "vpc"]
+/data/base-vpc-example.template.yml:139:7
+
+E0000 Template references a directory, not a file: /data/cfg_nag
+/data/cfg_nag:1:1
+
+E0000 Template references a directory, not a file: /data/cfn-lint
+/data/cfn-lint:1:1
+
+E1001 Missing top level template section Resources
+/data/cfn-python-lint.txt:1:1
+
+E1001 Top level template section E1001 is not valid
+/data/cfnlintrc:1:1
+
+E1001 Missing top level template section Resources
+/data/cfnlintrc:1:1
+
+E1001 Top level template section E1002 is not valid
+/data/cfnlintrc:2:1
+
+E1001 Top level template section E1003 is not valid
+/data/cfnlintrc:3:1
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupIngress
+/data/single_security_group.json:7:9
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupIngress
+/data/single_security_group_improved.yml:7:9
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupEgress
+/data/single_security_group_improved.yml:13:9
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:10:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:45:9
+
+E3012 Property Resources/EC2SecurityGroup/Properties/SecurityGroupEgress/0/IpProtocol should be of type String
+/data/stack-fixed.yml:63:15
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:71:11
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:9:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:44:9
+
+E3012 Property Resources/EC2SecurityGroup/Properties/SecurityGroupEgress/0/IpProtocol should be of type String
+/data/stack.yml:62:15
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:70:11
+
+E0000 expected '<document start>', but found '<scalar>'
+/data/test.sh:8:1
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/volume-encrypted.yml:10:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/volume.yml:10:7
+
+E0000 expected '<document start>', but found '<scalar>'
+/data/Dockerfile:7:1
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupIngress/0/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:254:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupIngress/0/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:255:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/0/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:259:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/0/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:260:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/1/FromPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:263:9
+
+E3012 Property Resources/NATSecurityGroup/Properties/SecurityGroupEgress/1/ToPort should be of type Integer
+/data/base-vpc-example-improved.template.yml:264:9
+
+E3030 You must specify a valid value for Domain (VPC).
+Valid values are ["standard", "vpc"]
+/data/base-vpc-example-improved.template.yml:320:7
+
+E3030 You must specify a valid value for Domain (VPC).
+Valid values are ["standard", "vpc"]
+/data/base-vpc-example.template.yml:139:7
+
+E0000 Template references a directory, not a file: /data/cfg_nag
+/data/cfg_nag:1:1
+
+E0000 Template references a directory, not a file: /data/cfn-lint
+/data/cfn-lint:1:1
+
+E0000 mapping values are not allowed here
+/data/cfn-python-lint.txt:30:50
+
+E1001 Top level template section E1001 is not valid
+/data/cfnlintrc:1:1
+
+E1001 Missing top level template section Resources
+/data/cfnlintrc:1:1
+
+E1001 Top level template section E1002 is not valid
+/data/cfnlintrc:2:1
+
+E1001 Top level template section E1003 is not valid
+/data/cfnlintrc:3:1
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupIngress
+/data/single_security_group.json:7:9
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupIngress
+/data/single_security_group_improved.yml:7:9
+
+E3002 Property is an object instead of List at Resources/sg/Properties/SecurityGroupEgress
+/data/single_security_group_improved.yml:13:9
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:10:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:45:9
+
+E3012 Property Resources/EC2SecurityGroup/Properties/SecurityGroupEgress/0/IpProtocol should be of type String
+/data/stack-fixed.yml:63:15
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack-fixed.yml:71:11
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:9:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:44:9
+
+E3012 Property Resources/EC2SecurityGroup/Properties/SecurityGroupEgress/0/IpProtocol should be of type String
+/data/stack.yml:62:15
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/stack.yml:70:11
+
+E0000 expected '<document start>', but found '<scalar>'
+/data/test.sh:8:1
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/volume-encrypted.yml:10:7
+
+W3010 Don't hardcode us-east-1a for AvailabilityZones
+/data/volume.yml:10:7
+
