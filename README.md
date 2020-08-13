@@ -8,3 +8,8 @@ The Example Used by tools like
    
    
   A detailed Blog will added at "jagadesh4java.blogspot.com"
+  
+  
+  Using Docker Containers
+  Running cft-lint : docker run --rm -v `pwd`:/data cfn-python-lint:latest /data/*
+  Running cfg_nag : docker run --tty --interactive --rm --name cfn-nag --volume $(pwd):/work  cfn-nag:latest --input-path /work/*
